@@ -12,12 +12,12 @@ int main(){
     cout << "Please enter your name:" << endl;
     std::string name{};
     cin >> name;
-    cout << endl;
+    
     cout << "Please enter the time of year when you were born:" << endl;
     cout << "(pick from 'spring', 'summer', 'autumn', 'winter')" << endl;
     std::string season{};
     cin >> season;
-    cout << endl;
+    
     std::array<std::string,2> adjective{};
     cout << "Please enter an adjective:";
     cin >> adjective.at(0);
