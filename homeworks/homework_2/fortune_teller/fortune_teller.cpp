@@ -19,9 +19,9 @@ int main(){
     cin >> season;
     
     std::array<std::string,2> adjective{};
-    cout << "Please enter an adjective: " << endl;
+    cout << "Please enter an adjective:" << endl;
     cin >> adjective.at(0);
-    cout << "Please enter another adjective: " << endl;;
+    cout << "Please enter another adjective:" << endl;;
     cin >> adjective.at(1);
     
     std::map<std::string, std::string> const noun{{"spring","STL guru"},
